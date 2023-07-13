@@ -41,7 +41,7 @@ public class Utils {
 	{
 		Properties prop =new Properties();
 		String path = System.getProperty("user.dir");
-		String globalProprtyPath = path+"\\src\\test\\java\\resources\\global.properties";
+		String globalProprtyPath = path+"/src/test/java/resources/global.properties";
        		 System.out.println(globalProprtyPath);
 		FileInputStream fis =new FileInputStream(globalProprtyPath);
 		prop.load(fis);
